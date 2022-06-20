@@ -1,0 +1,146 @@
+
+
+
+
+
+
+/* start from here*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    
+  }
+
+body{
+    background: black;
+    text-transform: capitalize;
+    color: #fff;
+   
+    
+}
+
+#header{
+    position:absolute;
+    left: 150px;
+    top:15px;
+ 
+}
+
+#nav{
+    position: absolute;
+    top:15px;
+    left: 900px;
+    
+ 
+}
+#nav ul li,a{
+    list-style-type: none;
+    display: inline-block;
+    margin:0 5px 0 5px ;
+    text-decoration: none;
+    color: #fff;
+    transition: all .5s ease-in-out;
+   
+    
+
+}
+
+
+
+
+#nav ul li a:hover{ 
+
+    color:rgb(88, 76, 76);
+    font-size: xx-large;
+    transform: rotateZ(360deg);        
+    }
+    
+    
+    
+    
+
+#main{
+    position: absolute;
+    left: 150px;
+    top:150px;
+    width: 35%;
+    text-transform: capitalize;
+ 
+}
+#main h1{
+    font-size:3.5em;
+    font-style: italic;
+    word-spacing: 3px;
+}
+#main h4{
+    word-spacing:2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:medium ;
+}
+#main button{
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    
+}
+#main button:hover{
+    text-decoration:underline;
+    font-size: larger;
+    opacity: 0.5;
+    
+}
+#section {
+    position: absolute;
+    left: 1140px;
+    top:150px;
+    transform-style: preserve-3d;/*u should use this property if u want to apply this function*/
+    transition: all 2s ease-in-out;
+
+}
+
+#section img:first-child {
+    position: absolute;
+    backface-visibility:hidden;
+    width: 200px;
+    z-index: 2;
+}
+
+section img:nth-child(2){
+    position: absolute;
+    right: -219px;
+    top: 18px;
+    width: 246px;   
+    z-index:1; 
+
+}
+section:hover{
+transform:rotatey(-180deg);
+
+}
+
+
+
+
+#footer{
+    position: absolute;
+    left: 45%;
+    top: 86%;
+}
+#footer img{
+    
+    transition: all .600s ease-in-out;
+    
+}
+#footer img:hover{
+    margin: 0 5px;
+    width: 46px;
+    transform: scale(1.1);
+    
+    
+}
