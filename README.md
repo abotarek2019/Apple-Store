@@ -9,6 +9,6 @@ choose your iphone 13 pro max.
   </p>
   <hr>
   <p align="center">
-  <img src="/media/0.png">
+  <img src="/media/logo.png">
   </p>
   <hr>
